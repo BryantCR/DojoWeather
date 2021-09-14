@@ -121,6 +121,7 @@
 
 .block3{
     border: 3px solid black;
+    background-color: gainsboro;
     display: flex;
     flex-direction: row;
     padding: 10px;
