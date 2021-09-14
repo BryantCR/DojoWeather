@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Dojo Weather
+        </title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="holdnavbar">
+                <nav class="navbar">
+                    <h2 class="navtittle">
+                        DojoWeather
+                    </h2>
+                    <div>
+                        <ol class="navbuttons">
+                            <li class="city">Burbank</li>
+                            <li class="city">Chicago</li>
+                            <li class="city">Dallas</li>
+                        </ol>
+                    </div>
+                </nav>
+            </nav>
+        </header>
+        <main>
+            <div class="holdmaincontent">
+                <div class="block1">
+                    <h4 class="block1tittle">
+                        San Jose
+                    </h4>
+                    <div class="tempselect">
+                        <label for="selectTemp">Show temperature in</label>
+                        <select class="selector" name="Temp" id="selectTemp">
+                            <option value="Celsius">°C</option>
+                            <option value="Fahrenheit">°F</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="weathercolumn1">
+                        <h5>
+                            Today
+                        </h5>
+                        <img id="rainingimg" src="././assets/some_rain.png" alt="user picture" class="profilePic">
+                        <p class="weather">some rain</p>
+                        <div class="grades">
+                            <p class="gradered">24°</p>
+                            <p class="gradeblue">18°</p>
+                        </div>
+                    </div>
+                    <div class="weathercolumn1">
+                        <h5>
+                            Tomorrow
+                        </h5>
+                        <img id="sunimg" src="././assets/some_sun.png" alt="user picture" class="profilePic">
+                        <p class="weather">some sun</p>
+                        <div class="grades">
+                            <p class="gradered">27°</p>
+                            <p class="gradeblue">19°</p>
+                        </div>
+                    </div>
+                    <div class="weathercolumn1">
+                        <h5>
+                            Friday
+                        </h5>
+                        <img id="cloudsimg" src="././assets/some_clouds.png" alt="user picture" class="profilePic">
+                        <p class="weather">some clouds</p>
+                        <div class="grades">
+                            <p class="gradered">21°</p>
+                            <p class="gradeblue">16°</p>
+                        </div>
+                    </div>
+                    <div class="weathercolumn1">
+                        <h5>
+                            Saturday
+                        </h5>
+                        <img id="sunimg2" src="././assets/some_sun.png" alt="user picture" class="profilePic">
+                        <p class="weather">some sun</p>
+                        <div class="grades">
+                            <p class="gradered">26°</p>
+                            <p class="gradeblue">21°</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block3">
+                    <img src="./assets/cookie.png" alt="cookies icon">
+                    <div class="cookieinfo">
+                        <h4>Stop! Cookie time</h4>
+                        <p class="cookietext">We use cookies (sadly not the edible one) to personalize
+                            content and ads to provide social media features and to
+                            analise our traffic. <a href="#">Read more</a>
+                        </p>
+                    </div>
+                    <button class="acceptbutton" onclick="removeCookie()">
+                        I Accept
+                    </button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
