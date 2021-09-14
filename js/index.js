@@ -58,3 +58,27 @@ function celsiusToFahrenheit (temperature){
             }
 
 */
+
+/*function deletecookies(){
+    banner.remove()
+}
+
+let accept = document.querySelector('.acceptbutton')
+let banner = document.querySelector('.banner')
+
+accept.addEventListener("click", deletecookies)
+
+//  Or
+
+
+function deletecookies(){
+    
+    let prueba = accept.closest('.banner')
+    prueba.remove()
+}
+
+let accept = document.querySelector('.acceptbutton')
+
+
+accept.addEventListener("click", deletecookies)*/
+
