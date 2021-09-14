@@ -129,6 +129,8 @@
     align-items: center;
     margin: 0px 20%;
     padding: 10px 20px;
+    position: fixed;
+    bottom: 20px;
 }
 .acceptbutton{
     background-color: cornflowerblue;
