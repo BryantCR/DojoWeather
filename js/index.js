@@ -80,5 +80,39 @@ function deletecookies(){
 let accept = document.querySelector('.acceptbutton')
 
 
-accept.addEventListener("click", deletecookies)*/
+accept.addEventListener("click", deletecookies)
+
+function difTemp(event){
+    let currentValue = event.target.value;
+
+    if(currentValue === "Celsius"){
+        console.log("Im in celsius");
+        let tempValue = document.querySelectorAll('.temp');
+        let convert
+        for(let i=0; i<tempValue.length; i++){
+            convert = (tempValue[i].innerHTML -32) *5/9;
+            tempValue[i].innerHTML = Math.round(convert);
+        }
+        
+    }
+
+    else{
+        if(currentValue === "Fahrenheit" ){
+            console.log("Im in fahrenheit");
+            let tempValue = document.querySelectorAll('.temp');
+            let convert
+            for(let i=0; i<tempValue.length; i++){
+                convert = (tempValue[i].innerHTML * 9/5) + 32;
+                tempValue[i].innerHTML = Math.round(convert);
+        }
+        } 
+    }
+}
+
+let tempValue = document.querySelector('.selector');
+
+tempValue.addEventListener('change', difTemp);
+
+
+*/
 
